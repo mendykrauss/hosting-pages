@@ -2563,11 +2563,6 @@ video {
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#7869c8\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(120 105 200 / var(--tw-bg-opacity));
-}
-
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -2744,10 +2739,6 @@ video {
 
   .sm\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .sm\:flex {
-    display: flex;
   }
 
   .sm\:w-2\/3 {
@@ -2961,12 +2952,16 @@ video {
     height: 8rem;
   }
 
-  .lg\:w-1\/2 {
-    width: 50%;
+  .lg\:w-3\/4 {
+    width: 75%;
   }
 
   .lg\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:w-11\/12 {
@@ -3051,8 +3046,8 @@ video {
     margin-right: 0px;
   }
 
-  .xl\:mt-10 {
-    margin-top: 2.5rem;
+  .xl\:mt-8 {
+    margin-top: 2rem;
   }
 
   .xl\:mb-0 {
@@ -3063,12 +3058,12 @@ video {
     margin-top: 0px;
   }
 
-  .xl\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:w-1\/2 {
+    width: 50%;
   }
 
   .xl\:w-96 {
@@ -3106,25 +3101,12 @@ video {
     padding-right: 1rem;
   }
 
-  .xl\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  .xl\:pt-6 {
+    padding-top: 1.5rem;
   }
 
   .xl\:pr-0 {
     padding-right: 0px;
-  }
-
-  .xl\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
-  .xl\:pt-8 {
-    padding-top: 2rem;
-  }
-
-  .xl\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .xl\:text-6xl {
